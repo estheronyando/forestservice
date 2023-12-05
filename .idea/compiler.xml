@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ForestServiceApp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ForestServiceApp" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
